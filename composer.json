@@ -1,0 +1,9 @@
+{
+  "require" : {
+    "twig/twig": "^1.8",
+    "alrik11es/cowsayphp": "^1.2"
+  },
+  "require-dev": {
+    "heroku/heroku-buildpack-php": "*"
+  }
+}
