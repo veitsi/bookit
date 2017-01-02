@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "01635930b5a0cdffbd4839c535e42c0a",
-    "content-hash": "7d3c4218464a23f1267feab48314b728",
+    "hash": "ce0dcc8b803f43c477bc98c5f67c24cd",
+    "content-hash": "843ee44ea97a4175f305894f266893b1",
     "packages": [
         {
             "name": "alrik11es/cowsayphp",
-            "version": "1.2.0",
+            "version": "dev-dev-rooster",
             "source": {
                 "type": "git",
-                "url": "https://github.com/alrik11es/cowsayphp.git",
-                "reference": "080dc10c8f5420fef35163569293601f17124eeb"
+                "url": "https://github.com/veitsi/cowsayphp.git",
+                "reference": "2993b254353ab1c409d5dd7793ebf1f4f5e3618a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alrik11es/cowsayphp/zipball/080dc10c8f5420fef35163569293601f17124eeb",
-                "reference": "080dc10c8f5420fef35163569293601f17124eeb",
+                "url": "https://api.github.com/repos/veitsi/cowsayphp/zipball/2993b254353ab1c409d5dd7793ebf1f4f5e3618a",
+                "reference": "2993b254353ab1c409d5dd7793ebf1f4f5e3618a",
                 "shasum": ""
             },
             "require": {
@@ -42,7 +42,11 @@
                     "Cowsayphp\\": "src"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "autoload-dev": {
+                "psr-4": {
+                    "Cowsayphp\\Test\\": "tests"
+                }
+            },
             "license": [
                 "MIT"
             ],
@@ -59,7 +63,10 @@
             "keywords": [
                 "cowsay"
             ],
-            "time": "2016-08-25 07:53:44"
+            "support": {
+                "source": "https://github.com/veitsi/cowsayphp/tree/dev-rooster"
+            },
+            "time": "2017-01-02 21:51:14"
         },
         {
             "name": "twig/twig",
@@ -171,7 +178,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "alrik11es/cowsayphp": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

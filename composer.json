@@ -1,7 +1,13 @@
 {
+	    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/veitsi/cowsayphp"
+        }
+    	],
   "require" : {
     "twig/twig": "^1.8",
-    "alrik11es/cowsayphp": "^1.2"
+    "alrik11es/cowsayphp": "dev-dev-rooster"
   },
   "require-dev": {
     "heroku/heroku-buildpack-php": "*"
